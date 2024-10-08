@@ -1,4 +1,5 @@
 import React from "react";
+import ImgAndVideo from "./ImgAndVideo";
 
 const Scroll = () => {
   return (
@@ -9,14 +10,14 @@ const Scroll = () => {
           <img
             src="/assets/jump-dog.png"
             alt="jumping-dog"
-            className="max-w-[50vw] h-screen z-20   my-24 "
+            className="max-w-[50vw] h-screen z-20 mt-24 "
           />
-          <div className="flex-col text-right space-y-5 mr-5 mt-7">
-            <h1 className=" md:text-5xl font-extrabold text-[#F76902]">
+          <div className="flex-col text-right space-y-4 mr-5 mt-7">
+            <h1 className=" md:text-6xl font-extrabold text-[#F76902]">
               History Of
             </h1>
-            <h1 className="font-custom md:text-8xl ">alabay</h1>
-            <p className="text-[#353535] font-bold text-2xl">
+            <h1 className="font-custom md:text-9xl text-white">alabay</h1>
+            <p className="text-[#353535] font-bold text-3xl">
               The Central Asian Shepherd Dog, also known as Alabay, has been a
               guardian of livestock and property for centuries. Originating from
               Central Asia, these dogs are renowned for their courage, strength,
@@ -24,6 +25,9 @@ const Scroll = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <ImgAndVideo />
       </div>
     </div>
   );
