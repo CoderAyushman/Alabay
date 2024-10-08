@@ -3,7 +3,7 @@ import Scroll from "./Scroll";
 
 const Home = () => {
   return (
-    <div className=" bg-white flex   md:items-baseline">
+    <div className=" bg-white flex   md:items-baseline items-center justify-center">
       <img src="/assets/puppies.jpg" className="max-w-full fixed " />
 
       <div className="flex-col space-y-60 fixed ">
