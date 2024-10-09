@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center mt-24 mb-10 gap-5 text-center overflow-hidden rounded-t-3xl">
+    <div className="flex flex-wrap items-center justify-center mt-24 mb-10 gap-5 text-center overflow-hidden rounded-t-3xl ">
       <div className="flex-col  items-center bg-[#FFF280] w-[20vw] h-[350px]">
         <h1 className="text-2xl font-bold text-white drop-shadow-2xl px-7 pt-5">
           community building

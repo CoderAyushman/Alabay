@@ -24,6 +24,9 @@ body {
 .skew-custom2 {
   clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 85%);
 }
+.skew-custom3 {
+  clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

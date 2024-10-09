@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokenomics = () => {
   return (
-    <div className="flex-col w-full px-10 bg-gradient-to-b from-[#FFC700] via-[#FFF280]  to-[#FFC700]    items-center justify-center pt-3  shadow-lg skew-custom2  h-min  ">
+    <div className="flex-col w-full px-10 bg-gradient-to-b from-[#FFC700] via-[#FFF280]  to-[#FFC700]    items-center justify-center pt-3  shadow-lg skew-custom2    ">
       <h1 className="font-custom text-white md:text-7xl lg:text-9xl pt-32">
         Tokenomics
       </h1>

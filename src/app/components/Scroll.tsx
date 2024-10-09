@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import ImgAndVideo from "./ImgAndVideo";
 import ProjectVision from "./ProjectVision";
@@ -5,6 +6,8 @@ import RoadMap from "./RoadMap";
 import Features from "./Features";
 import Tokenomics from "./Tokenomics";
 import Merchandise from "./Merchandise";
+import Games from "./Games";
+import GamePreview from "./GamePreview";
 
 const Scroll = () => {
   return (
@@ -48,6 +51,12 @@ const Scroll = () => {
       </div>
       <div className="flex w-full justify-center">
         <Merchandise />
+      </div>
+      <div className="flex w-full justify-center">
+        <Games />
+      </div>
+      <div className="flex w-full justify-center">
+        <GamePreview />
       </div>
     </div>
   );
