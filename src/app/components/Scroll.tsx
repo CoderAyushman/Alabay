@@ -1,6 +1,10 @@
 import React from "react";
 import ImgAndVideo from "./ImgAndVideo";
 import ProjectVision from "./ProjectVision";
+import RoadMap from "./RoadMap";
+import Features from "./Features";
+import Tokenomics from "./Tokenomics";
+import Merchandise from "./Merchandise";
 
 const Scroll = () => {
   return (
@@ -32,6 +36,18 @@ const Scroll = () => {
       </div>
       <div className="flex justify-center">
         <ProjectVision />
+      </div>
+      <div className="flex justify-center">
+        <RoadMap />
+      </div>
+      <div className="flex justify-center">
+        <Features />
+      </div>
+      <div className="flex w-full justify-center">
+        <Tokenomics />
+      </div>
+      <div className="flex w-full justify-center">
+        <Merchandise />
       </div>
     </div>
   );

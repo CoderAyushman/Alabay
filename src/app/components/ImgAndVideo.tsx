@@ -89,11 +89,11 @@ const ImgAndVideo = () => {
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="h-[200px] overflow-hidden bg-gray-300">
-                      <CardContent className="flex aspect-square  ">
+                      <CardContent className="flex aspect-square justify-center">
                         <img
                           src={value.src}
                           alt="img"
-                          className="w-[200px] h-[300px]"
+                          className="w-[200px] h-[300px] "
                         />
                       </CardContent>
                     </Card>
@@ -107,7 +107,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
@@ -121,7 +121,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
@@ -135,7 +135,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
@@ -149,12 +149,12 @@ const ImgAndVideo = () => {
             arr.map((value, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="h-[200px] overflow-hidden bg-gray-300">
-                    <CardContent className="flex aspect-square  ">
+                  <Card className=" h-[200px] overflow-hidden bg-gray-300  ">
+                    <CardContent className="flex aspect-square justify-center ">
                       <img
                         src={value.src}
                         alt="img"
-                        className="w-[200px] h-[300px]"
+                        className="w-[200px] h-[300px] "
                       />
                     </CardContent>
                   </Card>
@@ -169,7 +169,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
@@ -183,7 +183,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
@@ -197,7 +197,7 @@ const ImgAndVideo = () => {
                     <CardContent className="flex aspect-square  ">
                       <video
                         src="/assets/1_mb.mp4"
-                        className=""
+                        className="h-[200px]"
                         autoPlay={true}
                         loop={true}
                       />
